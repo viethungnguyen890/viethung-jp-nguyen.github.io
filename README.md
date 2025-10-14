@@ -1,3 +1,6 @@
+# NOTE
+This is a public repo. Do not leave any sensitive information.
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

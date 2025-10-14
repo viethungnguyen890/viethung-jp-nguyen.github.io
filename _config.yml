@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Viet-Hung Nguyen"
+title                    : "Viet-Hung's Homepage"
 title_separator          : "-"
 name                     : &name "Viet-Hung Nguyen"
 description              : &description "Viet-Hung Nguyen's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Viet-Hung Nguyen"
   pronouns         : "he/him"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Bioinformatics & Neuroscience\nLanguages: English, German"
   location         : "San Francisco, CA, USA"
   employer         : "University of San Francisco"
   uri              : # URL
