@@ -33,4 +33,37 @@ author_profile: true
 {% endif %}
 
 
-
+<!-- 
+{% if site.publication_category %}
+  {% for category in site.publication_category  %}
+    {% assign title_shown = false %}
+    {% assign has_publications = false %}
+    {% for post in site.publications reversed %}
+      {% if post.category == category[0] %}
+        {% assign has_publications = true %}
+      {% endif %}
+    {% endfor %}
+    {% if has_publications %}
+      {% for post in site.publications reversed %}
+        {% if post.category != category[0] %}
+          {% continue %}
+        {% endif %}
+        {% unless title_shown %}
+          <h2>{{ category[1].title }}</h2><hr />
+          {% assign title_shown = true %}
+        {% endunless %}
+        {% include archive-single.html %}
+      {% endfor %}
+    {% else %}
+      <p>No publications yet.</p>
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% if site.publications.size > 0 %}
+    {% for post in site.publications reversed %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% else %}
+    <p>No publications yet.</p>
+  {% endif %}
+{% endif %} -->
