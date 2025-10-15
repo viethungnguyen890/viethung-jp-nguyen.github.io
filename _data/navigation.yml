@@ -17,9 +17,6 @@ main:
   - title: "Publications" # Once there is a publication, move to top
     url: /publications/
 
-  # - title: "Other"
-  #   url: /other/
-
   # - title: "Talks"
   #   url: /talks/    
 
@@ -28,10 +25,9 @@ main:
     
   # - title: "Blog Posts"
   #   url: /year-archive/
- 
     
   # - title: "CV"
   #   url: /cv-json/
     
-  - title: "Guide"
-    url: /skat/
+  - title: "Other"
+    url: /other/
