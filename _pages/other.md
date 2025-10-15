@@ -7,8 +7,6 @@ redirect_from:
   - /markdown.html
 ---
 
-Hi! Here are my featured media.
-
 Here are various media that I have been featured in. Enjoy!
 
 # USF News
