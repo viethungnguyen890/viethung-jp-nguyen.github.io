@@ -13,7 +13,6 @@ author_profile: true
 
 <!-- New style rendering if publication categories are defined -->
 <!-- {% if site.publication_category %}
-<p>if is true!.Edited</p>
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
@@ -38,26 +37,16 @@ author_profile: true
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
-    {% assign has_publications = false %}
     {% for post in site.publications reversed %}
-      {% if post.category == category[0] %}
-        {% assign has_publications = true %}
+      {% if post.category != category[0] %}
+        {% continue %}
       {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% include archive-single.html %}
     {% endfor %}
-    {% if has_publications %}
-      {% for post in site.publications reversed %}
-        {% if post.category != category[0] %}
-          {% continue %}
-        {% endif %}
-        {% unless title_shown %}
-          <h2>{{ category[1].title }}</h2><hr />
-          {% assign title_shown = true %}
-        {% endunless %}
-        {% include archive-single.html %}
-      {% endfor %}
-    {% else %}
-      <p>Uh oh, no publications yet.</p>
-    {% endif %}
   {% endfor %}
 {% else %}
   {% if site.publications.size > 0 %}
@@ -65,6 +54,6 @@ author_profile: true
       {% include archive-single.html %}
     {% endfor %}
   {% else %}
-    <p>No publications yet.</p>
+    <p>No publications yet. Stay tuned!</p>
   {% endif %}
 {% endif %}
