@@ -23,7 +23,7 @@ repository               : "viethungnguyen890/viethung-jp-nguyen.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "bio-photo-2.jpg"
   name             : "Viet-Hung Nguyen"
   pronouns         : "he/him"  
   bio              : "Bioinformatics & Neuroscience\nLanguages: English, German"
