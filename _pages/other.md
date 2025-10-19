@@ -19,3 +19,6 @@ Here are various media that I have been featured in. Enjoy!
 
 I had the opportunity to work as a Student Ambassador at the [2024 McCarthy Award for Public Service Event](https://usfblogs.usfca.edu/mccarthy/2025/02/14/seeing-the-leo-t-mccarthy-awards-impact/) [(Backup)](/files/mcCarthyAward.html).
 
+
+Example: editing a Markdown file for a talk
+![Editing a Markdown file for a talk](/images/editing-talk.png)
