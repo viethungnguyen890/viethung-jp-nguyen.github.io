@@ -9,8 +9,13 @@ redirect_from:
 
 Here are various media that I have been featured in. Enjoy!
 
-# USF News
+# University of San Francisco
 
-Item 1
-Item 2
-Item 3
+## Seeing the Leo T. McCarthy Award's Impact
+
+<!-- <img src="/images/mcCarthyAward.jpg" alt="Group Photo" width="400" /> -->
+
+![Group Photo](/images/mcCarthyAward.jpg){: width="300" }
+
+I had the opportunity to work as a Student Ambassador at the 2024 McCarthy Award for Public Service Event.
+
