@@ -15,7 +15,7 @@ Here are various media that I have been featured in. Enjoy!
 
 <img src="/images/mcCarthyAward.jpg" alt="Group Photo 1" width="400" />
 
-![Group Photo](/images/mcCarthyAward.jpg){: .align-right width="300px"}
+![Group Photo](./images/mcCarthyAward.JPG){: .align-right width="300px"}
 
 I had the opportunity to work as a Student Ambassador at the [2024 McCarthy Award for Public Service Event](https://usfblogs.usfca.edu/mccarthy/2025/02/14/seeing-the-leo-t-mccarthy-awards-impact/) [(Backup)](/files/mcCarthyAward.html).
 
