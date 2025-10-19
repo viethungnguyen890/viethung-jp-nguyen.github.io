@@ -13,7 +13,7 @@ Here are various media that I have been featured in. Enjoy!
 
 ## Seeing the Leo T. McCarthy Award's Impact
 
-<!-- <img src="/images/mcCarthyAward.jpg" alt="Group Photo" width="400" /> -->
+<img src="/images/mcCarthyAward.jpg" alt="Group Photo 1" width="400" />
 
 ![Group Photo](/images/mcCarthyAward.jpg){: width="300" }
 
