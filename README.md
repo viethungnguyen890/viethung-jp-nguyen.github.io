@@ -2,7 +2,8 @@
 This is a public repo. Do not leave any sensitive information.
 ```
 
-For images/file links: 
+For images/file links:
+Important: Capitalization matters, even for the file extension name. 
 For about.md, use ![Another one](images/ggb.jpg)
 For other pages like /pages/other.md, use ![Group Photo](../images/mcCarthyAward.JPG){: .align-right width="300px"}
 If you are in a collection/folder like /_portfolio/portfolio-2.html, you'll have to go 2 directories up, but the image in the excerpt only has to go up 1 directory.
