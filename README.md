@@ -1,6 +1,20 @@
 # NOTE
 This is a public repo. Do not leave any sensitive information.
+```
 
+For images/file links: 
+For about.md, use ![Another one](images/ggb.jpg)
+For other pages, use ![Group Photo](../images/mcCarthyAward.JPG){: .align-right width="300px"}
+To align and resize images: 
+    <img align="left" width="300px" src="../images/mcCarthyAward.JPG">
+    ![Group Photo](../images/mcCarthyAward.JPG){: .align-right width="300px"}
+    <img src="../images/mcCarthyAward.jpg" alt="Group Photo 1" width="400" />
+    ![mypics](../images/mcCarthyAward.jpg){: width="400px" style="float:right; padding-left:10px" }
+    # I believe height and with are locked in the original aspect ratio, so just pick one.
+
+To use jekyll to host locally, go to VSCode terminal and enter: bundle exec jekyll serve
+
+```
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

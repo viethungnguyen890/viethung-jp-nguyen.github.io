@@ -12,6 +12,7 @@ main:
     url: /portfolio/
        
   - title: "CV"
+    # url: /files/dummyCv.pdf # If you want to link to a file instead
     url: /cv/ # This uses markdown
 
   - title: "Publications" # Once there is a publication, move to top
