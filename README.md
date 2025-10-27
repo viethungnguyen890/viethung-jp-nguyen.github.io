@@ -4,7 +4,9 @@ This is a public repo. Do not leave any sensitive information.
 
 For images/file links: 
 For about.md, use ![Another one](images/ggb.jpg)
-For other pages, use ![Group Photo](../images/mcCarthyAward.JPG){: .align-right width="300px"}
+For other pages like /pages/other.md, use ![Group Photo](../images/mcCarthyAward.JPG){: .align-right width="300px"}
+If you are in a collection/folder like /_portfolio/portfolio-2.html, you'll have to go 2 directories up, but the image in the excerpt only has to go up 1 directory.
+
 To align and resize images: 
     <img align="left" width="300px" src="../images/mcCarthyAward.JPG">
     ![Group Photo](../images/mcCarthyAward.JPG){: .align-right width="300px"}

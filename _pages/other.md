@@ -26,7 +26,7 @@ I had the opportunity to work as a Student Ambassador at the [2024 McCarthy Awar
 Example: editing a Markdown file for a talk
 ![Editing a Markdown file for a talk](../images/editing-talk.png)
 
-![Another one](../images/ggb.jpg)_
+![Another one](../images/ggb.jpg)
 
 ---
 ## Hello!
