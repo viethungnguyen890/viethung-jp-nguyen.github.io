@@ -92,9 +92,9 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false # If true, blog posts with a future date will be visible. (To make a draft, put it in /_drafts/ and do not put a date)
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+talkmap_link             : true      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -230,6 +230,13 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  other:
+    output: true
+    permalink: /:collection/:path/
+  # fr: # Sample of additional folder of blog posts. Configure the settings in defaults as well.
+  #   output: true
+  #   permalink: /francais/:path/
+
 
 
 # These settings control how pages and collections are included in the site
@@ -287,6 +294,26 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _other
+  - scope:
+      path: ""
+      type: other
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # # FR posts: same as blog posts
+  # - scope:
+  #     path: ""
+  #     type: fr
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
 
 
 # Sass/SCSS

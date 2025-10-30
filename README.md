@@ -16,8 +16,19 @@ To align and resize images:
     # I believe height and with are locked in the original aspect ratio, so just pick one.
 
 To use jekyll to host locally, go to VSCode terminal and enter: bundle exec jekyll serve
+First run this in VSCode terminal: gem install tzinfo-data
+Then put this in your Gemfile, or you'll get a missing gem error:
+    gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 ```
+How the page works:
+- to add a new page, add a md or html file to /_pages/. To list it in the nav bar, edit navigation.yml.
+- to create a new collection of pages or posts as well as a folder for it, you must list it in _config.yml
+- the html files in /_pages/ have for loops that go through all the posts in their collections to list them.
+- to edit the favicon, header, or footer, or blog post (members of a collection) layouts, go to /_includes/
+- to edit the layouts of single pages or pages that are the landing page of a collection, go to /_layouts/
+to view the actual components of the site after it is built, go to /_site/
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 

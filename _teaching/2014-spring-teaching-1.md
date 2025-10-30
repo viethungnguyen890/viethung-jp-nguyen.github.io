@@ -12,11 +12,11 @@ This is a description of a teaching experience. You can use markdown like any ot
 
 Heading 1
 ======
-
+<!-- 
 ![Group Photo](/images/mcCarthyAward.jpg)
 
 I had the opportunity to work as a Student Ambassador at the [2024 McCarthy Award for Public Service Event](https://usfblogs.usfca.edu/mccarthy/2025/02/14/seeing-the-leo-t-mccarthy-awards-impact/) [(Backup)](/files/mcCarthyAward.html).
-[hihi](/files/paper1.pdf)
+[test](/files/paper1.pdf) -->
 
 Heading 2
 ======

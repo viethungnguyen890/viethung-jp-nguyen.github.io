@@ -1,0 +1,340 @@
+
+/* BANNER CSS */
+
+
+#onetrust-accept-btn-handler, 
+#onetrust-pc-btn-handler,
+.ot-sdk-show-settings {
+    font-family: 'Fira Sans', sans-serif!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    font-size: 1.125rem!important;
+    line-height: 1!important;
+    min-height: 3.125rem!important;
+    border: 0.0625rem solid transparent!important;
+    border-radius: 0!important;
+    border-width: 0.125rem!important;
+    border-color: #FDBB30!important;
+    box-shadow: inset 0 0 0 0 #FDBB30!important;
+    white-space: normal!important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    letter-spacing: .01em !important;
+    color: black!important;
+}
+.ot-sdk-show-settings:hover {
+    background: white!important;
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out!important;
+    box-shadow: inset 0 0 0 0.1875rem #FDBB30!important;
+}
+
+#onetrust-banner-sdk.ot-bnr-w-logo .ot-bnr-logo {
+    display:none;
+}
+#onetrust-accept-btn-handler:hover, 
+#onetrust-pc-btn-handler:hover {
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out!important;
+    text-decoration: none!important;
+    -webkit-box-shadow: inset 0 0 0 0.1875rem #FDBB30!important;
+    box-shadow: inset 0 0 0 0.1875rem #FDBB30!important;
+    opacity: 1!important;
+}
+#onetrust-accept-btn-handler:hover {
+    background-color: white !important;
+}
+.ot-sdk-container {
+    margin: 1rem 0 !important;
+    padding-left: 3.9% !important;  
+    padding-right: 4.16667% !important;
+}
+img.ot-bnr-logo {
+    display: none!important;
+}
+#onetrust-banner-sdk.ot-bnr-w-logo #onetrust-policy {
+    margin-left: 0!important;
+}
+#onetrust-policy-text {
+    font-family: 'IBM Plex Serif', serif!important;
+    font-weight: 400!important;
+    font-size: 1rem!important;
+    padding: 6px !important;
+}
+
+#onetrust-consent-sdk #onetrust-banner-sdk:focus,
+#onetrust-consent-sdk #onetrust-banner-sdk a:focus,
+#onetrust-consent-sdk #onetrust-banner-sdk button:focus {
+    box-shadow: 0 0 0 3px #FFF!important;
+    outline: 3px solid #00A1CA!important;
+    outline-offset: 3px !important;
+    border-radius: 0 !important;
+    opacity:1;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width: 499px) {
+  #onetrust-accept-btn-handler, 
+    #onetrust-pc-btn-handler {
+        font-size: .9rem!important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 42vw !important;
+    }
+    #onetrust-policy-text {
+        font-family: 'IBM Plex Serif', serif!important;
+        font-weight: 400!important;
+        font-size: .9rem!important;
+        padding: 6px !important;
+    }
+    #onetrust-banner-sdk.ot-bnr-w-logo #onetrust-policy {
+        margin: 30px 20px 20px 20px !important;
+    }
+    #onetrust-banner-sdk #onetrust-accept-btn-handler {
+        margin-right: 0 !important;
+    }
+    #onetrust-banner-sdk:not(.ot-iab-2) #onetrust-group-container, 
+    #onetrust-banner-sdk.ot-bnr-w-logo #onetrust-button-group-parent {
+       width: 100vw!important;
+    }
+    #onetrust-banner-sdk.ot-bnr-w-logo #onetrust-button-group-parent {
+        padding-left: 0px!important;
+        display: flex !important;
+        justify-content: center !important;
+        width: 100vw !important;
+    }
+    #onetrust-banner-sdk #onetrust-policy {
+        margin-top: 0!important;
+    }
+    .ot-sdk-container {
+        margin-bottom: 0px !important;
+        margin-top: 15px !important;
+    }
+    #onetrust-group-container {
+       margin-top: -35px;
+    }
+    #onetrust-policy-text {
+       font-size: 0.9rem !important;
+    }
+   #onetrust-button-group-parent {
+      top: -10px;
+      position: relative;
+   }
+   #onetrust-pc-sdk #close-pc-btn-handler.ot-close-icon {
+      background-color: white!important;
+   }
+   #onetrust-banner-sdk .ot-sdk-container {
+      padding: 0!important;
+   }
+}
+@media screen and (min-width: 500px) and (max-width: 896px) {
+    #onetrust-banner-sdk.ot-bnr-w-logo #onetrust-button-group-parent {
+        padding-left: 0px!important;
+        margin-top: 20px !important;
+    }
+    #onetrust-banner-sdk:not(.ot-iab-2) #onetrust-group-container{
+        width: 100%!important;
+    }
+    #onetrust-accept-btn-handler,
+    #onetrust-pc-btn-handler {
+        width: 230px !important;
+    }
+    #onetrust-banner-sdk #onetrust-accept-btn-handler {
+        margin-right: 0 !important;
+    }
+    #onetrust-banner-sdk #onetrust-policy {
+        margin: .625em 0 .625em 2em!important;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 550px) {
+    #onetrust-accept-btn-handler, #onetrust-pc-btn-handler {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #onetrust-banner-sdk #onetrust-button-group {
+        margin-right: 0!important;
+    }
+    #onetrust-banner-sdk #onetrust-policy {
+        margin: .625em 0 .625em 2em!important;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #onetrust-banner-sdk.vertical-align-content #onetrust-button-group-parent {
+        left: 70%!important;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #onetrust-banner-sdk:not(.ot-iab-2).vertical-align-content #onetrust-button-group-parent {
+        left: 55% !important;
+    }
+}
+@media only screen and (min-width: 897px) and (max-width: 1023px) {
+     #onetrust-banner-sdk.vertical-align-content #onetrust-button-group-parent {
+        left: auto!important; 
+    }
+    #onetrust-banner-sdk.ot-buttons-fw:not(.ot-iab-2) #onetrust-button-group-parent {
+        padding-right: 0%!important;
+    }
+    #onetrust-banner-sdk .ot-sdk-three.ot-sdk-columns {
+        width: 30%!important;
+    }
+}
+
+
+/* PREFERENCE CENTER CSS */
+
+#ot-pc-title,
+ #ot-category-title {
+    font-family: 'Fira Sans', sans-serif!important;
+    font-weight: 700!important;
+ }
+ .ot-cat-header {
+    font-family: 'Fira Sans', sans-serif!important;
+    font-weight: 600!important;
+ }
+#ot-pc-desc {
+    font-family: 'IBM Plex Serif', serif!important;
+    font-weight: 400!important;
+    font-size: .85rem!important;
+}
+#ot-pc-desc a {
+    font-weight:700!important;
+} 
+
+
+.save-preference-btn-handler,
+#accept-recommended-btn-handler {
+    font-family: 'Fira Sans', sans-serif!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    font-size: 1.125rem!important;
+    line-height: 1!important;
+    /*min-height: 3.125rem!important; */
+    border: 0.0625rem solid transparent!important;
+    border-radius: 0!important;
+   /* border-width: 0.125rem!important;*/
+    border-color: #FDBB30!important;
+    box-shadow: inset 0 0 0 0 #FDBB30!important;
+    white-space: normal!important; 
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    letter-spacing: .01em !important; 
+}
+
+.save-preference-btn-handler:hover,
+#accept-recommended-btn-handler:hover {
+    transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out!important;
+    text-decoration: none!important;
+    -webkit-box-shadow: inset 0 0 0 0.1875rem #FDBB30!important;
+    box-shadow: inset 0 0 0 0.1875rem #FDBB30!important;
+    opacity: 1!important;
+    background-color: white !important;
+}
+
+.ot-pc-logo {
+    display: none !important;
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk *:focus,
+#onetrust-pc-sdk input[type=checkbox]:focus  {
+    box-shadow: 0 0 0 3px #FFF!important;
+    outline: 3px solid #00A1CA!important;
+    outline-offset: 3px !important;
+    border-radius: 0 !important;
+    opacity:1;
+}
+
+#onetrust-pc-sdk h2 {
+    font-size: 1.6rem !important;
+    margin-top: 1.2rem !important;
+}
+#onetrust-pc-sdk h3 {
+    font-size: 1.3rem !important;
+}
+#onetrust-pc-sdk h4 {
+    font-size: 1rem !important;
+}
+#onetrust-pc-sdk #ot-pc-content {
+    padding-left: 6px!important;
+}
+/*
+#onetrust-pc-sdk #ot-pc-content {
+    padding-left: 6px !important;
+    padding-right: 24px !important;
+    top:20px !important;
+}
+*/
+.ot-btn-container {
+    background: white !important;
+}
+/*
+#onetrust-pc-sdk #close-pc-btn-handler.ot-close-icon {
+    right: 10px!important;
+}
+#onetrust-pc-sdk .ot-pc-header {
+    background: transparent !important;
+    border: 0 !important;
+}
+
+#onetrust-pc-sdk input[type=checkbox] {
+    width: 45px !important;
+    height: 25px !important;
+}
+*/
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-tgl input:focus + .ot-switch, .ot-switch .ot-switch-nob, .ot-switch .ot-switch-nob:before, #onetrust-pc-sdk .ot-checkbox input[type="checkbox"]:focus + label::before, #onetrust-pc-sdk .ot-chkbox input[type="checkbox"]:focus + label::before {
+    outline-width: 0px!important;
+}
+.ot-always-active {
+    color: #00543c !important;
+    font-size: 0.9rem !important;
+}
+#onetrust-pc-sdk .ot-pc-footer {
+    border-top: 0px !important;
+}
+/*
+#onetrust-pc-sdk .ot-btn-container {
+    top: 7px !important;
+    position: relative !important;
+    border-top: 1px solid #d8d8d8 !important;
+}*/
+#onetrust-pc-sdk input[type="checkbox"] { /* takes out the orig. checkbox visible under the btn in Firefox */
+ display: none!important;
+}
+/*
+@media only screen and (min-width: 601px) {
+    #onetrust-pc-sdk.otPcCenter {
+        width: 60% !important;
+        max-width: 675px !important;
+        min-width: 675px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #onetrust-pc-sdk .ot-btn-container button {
+        max-width: 90% !important;
+    }
+}
+@media only screen and (max-width: 499px) {
+    #onetrust-pc-sdk #ot-pc-content {
+        width: calc(100% - 43px) !important;
+        padding: 0 20px 0 17px !important;
+    }
+}
+*/
+/*
+#onetrust-pc-sdk .ot-accordion-layout.ot-cat-item {
+    background-color: lightblue;
+  }
+  #onetrust-pc-sdk .ot-cat-item p {
+    &#ot-desc-id-C0001 {
+      background-color: pink;
+    }
+    &#ot-desc-id-C0005 {
+      background-color: lightgreen;
+    }
+    &#ot-desc-id-C0004 {
+      background-color: lightyellow;
+    }
+  }
+    */

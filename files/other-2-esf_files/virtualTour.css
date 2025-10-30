@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Fira+Sans+Extra+Condensed:wght@400;700&display=swap');
+
+/* classes can be named anything */
+
+.custom-embed-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 30px;
+}
+
+.custom-embed-title {
+    font-family: "Fira Sans Extra Condensed", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin: 0 0 20px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.custom-embed-button {
+    font-size: 1.125rem;
+    line-height: 1;
+    padding: 0 2rem;
+    min-height: 3.125rem;
+    width: auto;
+    border: 0.125rem solid #FDBB30;
+    color: #000;
+    background-color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    white-space: normal;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+    box-shadow: inset 0 0 0 0 #FDBB30;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    
+}
+
+.custom-embed-button:hover {
+    border-width: 0.125rem;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0.1875rem #FDBB30;
+}
