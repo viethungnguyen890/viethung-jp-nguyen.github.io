@@ -29,6 +29,49 @@ How the page works:
 - to edit the layouts of single pages or pages that are the landing page of a collection, go to /_layouts/
 to view the actual components of the site after it is built, go to /_site/
 
+Example of info that you could add to the front matter:
+```
+---
+title: "Talk 1 on Relevant Topic in Your Field"
+collection: talks
+type: "Talk"
+permalink: /talks/2012-03-01-talk-1
+venue: "UC San Francisco, Department of Testing"
+date: 2012-03-01
+location: "San Francisco, CA, USA"
+---
+```
+This will result in this and should appear on the talkmap:
+```
+Talk 1 on Relevant Topic in Your Field
+ March 01, 2012
+
+Talk, UC San Francisco, Department of Testing, San Francisco, CA, USA
+
+This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post.
+```
+
+Example 2:
+```
+---
+title: "Teaching experience 1"
+collection: teaching
+type: "Undergraduate course"
+permalink: /teaching/2014-spring-teaching-1
+venue: "University 1, Department"
+date: 2014-01-01
+location: "San Francisco, CA"
+---
+```
+Results in:
+```
+Teaching experience 1
+Undergraduate course, University 1, Department, 2014
+
+This is a description of a teaching experience. You can use markdown like any other post.
+```
+
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
