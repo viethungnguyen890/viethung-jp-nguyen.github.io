@@ -1,24 +1,16 @@
 ---
-title: "Learning & Memory Lab"
-excerpt: "This is my senior thesis, conducted at USF:<br> <i> Mental health is a significant factor in overall health as it affects the risk for many conditions. One possible contributor is birth order; some research suggests that later-borns experience higher mental well-being than first-borns. According to intersectionality theories and the multiple jeopardy hypothesis, being a member of multiple marginalized groups can also result in interactive detrimental effects[...] </i> <br/> <img src='../images/usf-thesis-poster.jpg' alt='Conference Poster' height='300px' style='padding-top: 10px' >"
+title: "Learning & Memory Lab: Can Strategy Instructions Help People Suppress Thoughts More Effectively?"
+excerpt: "<img src='../images/portfolio-3-poster.jpg' alt='Conference Poster' height='300px' style='padding-top: 10px' >"
 collection: portfolio
 ---
 
-This is my senior thesis ([full thesis here](../../files/usf-thesis.pdf)), conducted at USF[^1]. 
+Poster presented at:
+* 2023 Western Psychological Association Convention, Riverside, CA, USA.
+* 2023 USF Creative Activity & Research Day, San Francisco, CA, USA.
 
----
-
-![Conference Poster](../../images/usf-thesis-poster.jpg)
+Authors: Sara Ahmed, Ellie Carpenter, Cosette O’Connell, Sabrina Hemida, Rosie Juviler, Viet-Hung Nguyen, Jonathan Weiss, Thomas Biba, Michael Ennis, Benjamin Levy.
 
 ## Abstract
-> Mental health is a significant factor in overall health as it affects the risk for many conditions. One possible contributor is birth order; some research suggests that later-borns experience higher mental well-being than first-borns. According to intersectionality theories and the multiple jeopardy hypothesis, being a member of multiple marginalized groups can also result in interactive detrimental effects. Additional research suggests that people with various mental health conditions experience different effects on their mental health, which influences intervention design. This correlational study conducted on university students (n = 115) aimed to replicate the effects of birth order on mental well-being and explore which particular aspects of mental well-being may be affected by birth order. The study filled a gap by recruiting a sample with more women and people of immigrant backgrounds. Per the intersectionality theory, it also aimed to determine whether there is an interaction effect between being a first-born, coming from an immigration background, and identifying as a woman on mental well-being. Neither a replication of the birth order effect nor an interaction effect between birth order, gender, and immigration background were found. Exploratory analyses suggest that only children experience more Positive Relations With Others than later-borns. This protective effect seems to only apply to non-immigrants as they exhibit higher Self-Acceptance than people of immigrant backgrounds. Future studies may dissect this potential interaction between birth order and immigrant background.
+> Can individuals successfully keep a thought out of mind? Wegner et al. (1987) showed that attempting to suppress a thought paradoxically can cause a rebound effect - an increase in the accessibility of the given thought after suppression. These findings suggest that thought suppression is challenging and that attempts to control thought in this way can inadvertently make things worse. In these studies, though, participants were not given any practice with thought suppression and were given no guidance about how to approach the task. Perhaps participants struggled because they were not able to come up with strategies for engaging in thought suppression.<br><br>In our current study, we had participants (n=223) perform a task similar to Wegner et al. (1987), but we included a between-subjects manipulation of the instructions that participants were given. One group was given no special instructions - like the participants in the original study - whereas two other groups were instructed to suppress the thought by substituting an alternative thought or by keeping their mind blank and avoiding thinking of anything. In our procedure, participants had a one minute practice trial where they practiced stream of consciousness verbalization. Then the experimental group was instructed to not think of a white bear (initial suppression), while controls were asked to think of a white bear (initial expression) for five minutes. In the second trial, participants in the experimental group were asked to think of a white bear, and controls were asked not to think of a white bear while continuing to verbalize their thoughts. Collapsing across the different instruction conditions, we replicated the rebound effect with more target thought occurrences in the expression phase for the experimental group (M = 29.7) than for the control group  (M = 23.2), F(1, 222) = 6.61, p < 0.05. Contrary to our expectations, however, the instruction manipulation did not influence the size of the rebound effect, F(2, 222) = 1.574, p = 0.20. This suggests that providing a strategy to participants does not increase success of thought suppression.
 
-## Acknowledgements
-
-_I would like to extend my deepest gratitude to: Dr. Viskontas, Dr. Levy, our thesis cohort, Dr. Reese, current & former members of the Learning & Memory Lab, family & friends, the USF Psychology Faculty & Program Assistant._
-
-_I would also like to thank Dr. Joshi, Dr. Munnich, & Dr. Chun._
-
----
-
-[^1]: Defended on: November 21, 2024. Poster presented at: 2025 Western Psychological Association Convention, Las Vegas, NV, USA.
+![Conference Poster](../../images/portfolio-3-poster.jpg)
