@@ -1,6 +1,6 @@
 ---
 title: "Learning & Memory Lab: Can Strategy Instructions Help People Suppress Thoughts More Effectively?"
-excerpt: "<img src='../images/portfolio-3-poster.jpg' alt='Conference Poster' height='300px' style='padding-top: 10px' >"
+excerpt: "<i>Can individuals successfully keep a thought out of mind? Wegner et al. (1987) showed that attempting to suppress a thought paradoxically can cause a rebound effect - an increase in the accessibility of the given thought after suppression. These findings suggest that thought suppression is challenging and that attempts to control thought in this way can inadvertently make things worse. In these studies, though, participants were not given any practice with thought suppression and were given no guidance about how to approach the task. Perhaps participants struggled because they were not able to come up with strategies for engaging in thought suppression[...]</i> <br/> <img src='../images/portfolio-3-poster.jpg' alt='Conference Poster' height='300px' style='padding-top: 10px' >"
 collection: portfolio
 ---
 
