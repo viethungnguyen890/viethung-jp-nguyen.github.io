@@ -1,10 +1,8 @@
 ---
-title: "Investigating the Effects of Birth Order on Mental Well-Being"
+title: "Learning & Memory Lab"
 excerpt: "This is my senior thesis, conducted at USF:<br> <i> Mental health is a significant factor in overall health as it affects the risk for many conditions. One possible contributor is birth order; some research suggests that later-borns experience higher mental well-being than first-borns. According to intersectionality theories and the multiple jeopardy hypothesis, being a member of multiple marginalized groups can also result in interactive detrimental effects[...] </i> <br/> <img src='../images/usf-thesis-poster.jpg' alt='Conference Poster' height='300px' style='padding-top: 10px' >"
 collection: portfolio
 ---
-
-date: 2024-11-21
 
 This is my senior thesis ([full thesis here](../../files/usf-thesis.pdf)), conducted at USF[^1]. 
 
