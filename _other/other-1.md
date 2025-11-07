@@ -2,6 +2,7 @@
 title: "Seeing the USF Leo T. McCarthy Award's Impact"
 excerpt: "I had the opportunity to work as a Student Ambassador at the 2024 McCarthy Award for Public Service Event. <br/><img src='../images/mcCarthyAward.jpg' alt='Group Photo' height='300px' style='padding-top: 10px' >"
 date: 2025-02-14
+map-venue: "Hyatt Regency"
 location: "San Francisco, CA, USA"
 collection: other
 ---
